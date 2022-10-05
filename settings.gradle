@@ -1,5 +1,5 @@
 rootProject.name = "UnityLibMultiGenerator"
 include ':app'
-include ':multi_OS_library:unityLibrary'
+include ':resultLibrary:unityLibrary'
 include ':unityLibrary'
 project(':unityLibrary').projectDir=new File('..\\unityLibrary')
