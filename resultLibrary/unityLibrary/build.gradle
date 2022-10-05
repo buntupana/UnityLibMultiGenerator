@@ -33,23 +33,6 @@ dependencies {
     releaseApi(name: 'unityLibrary-release', ext:'aar')
     debugApi(name: 'unityLibrary-debug', ext:'aar')
 
-    implementation(name: 'ARPresto', ext:'aar')
-    implementation(name: 'NatCorder', ext:'aar')
-    implementation(name: 'UnityARCore', ext:'aar')
-    implementation(name: 'arcore_client', ext:'aar')
-    implementation(name: 'audioinaec', ext:'aar')
-    implementation(name: 'exoplayer-common', ext:'aar')
-    implementation(name: 'exoplayer-core', ext:'aar')
-    implementation(name: 'exoplayer-dash', ext:'aar')
-    implementation(name: 'exoplayer-database', ext:'aar')
-    implementation(name: 'exoplayer-datasource', ext:'aar')
-    implementation(name: 'exoplayer-decoder', ext:'aar')
-    implementation(name: 'exoplayer-extractor', ext:'aar')
-    implementation(name: 'exoplayer-hls', ext:'aar')
-    implementation(name: 'exoplayer-rtsp', ext:'aar')
-    implementation(name: 'exoplayer-smoothstreaming', ext:'aar')
-    implementation(name: 'exoplayer', ext:'aar')
-    implementation(name: 'extension-rtmp', ext:'aar')
-    implementation(name: 'rtmp-client-3.2.0', ext:'aar')
-    implementation(name: 'unityandroidpermissions', ext:'aar')
+//    Here all aar dependencies
+
 }
