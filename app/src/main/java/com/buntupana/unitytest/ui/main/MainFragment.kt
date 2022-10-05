@@ -1,6 +1,5 @@
-package com.vodafone.unitytest.ui.main
+package com.buntupana.unitytest.ui.main
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,11 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.Toast
+import com.buntupana.unitytest.R
 import com.unity3d.nativecommunication.IUnityReceiver
 import com.unity3d.nativecommunication.UnityReceiver
-import com.unity3d.nativecommunication.UnitySender
 import com.unity3d.player.UnityPlayer
-import com.vodafone.unitytest.R
 
 class MainFragment : Fragment(), IUnityReceiver {
 

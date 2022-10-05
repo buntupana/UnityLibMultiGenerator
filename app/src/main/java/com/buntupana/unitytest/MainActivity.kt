@@ -1,8 +1,8 @@
-package com.vodafone.unitytest
+package com.buntupana.unitytest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.vodafone.unitytest.ui.main.MainFragment
+import com.buntupana.unitytest.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 

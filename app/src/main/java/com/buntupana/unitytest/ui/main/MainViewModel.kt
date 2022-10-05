@@ -1,4 +1,4 @@
-package com.vodafone.unitytest.ui.main
+package com.buntupana.unitytest.ui.main
 
 import androidx.lifecycle.ViewModel
 
