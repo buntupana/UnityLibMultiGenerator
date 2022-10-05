@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion compile_sdk_version
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         applicationId "com.vodafone.unitytest"
-        minSdkVersion 24
-        targetSdkVersion 30
+        minSdkVersion min_sdk_version
+        targetSdkVersion compile_sdk_version
         versionCode 1
         versionName "1.0"
 
