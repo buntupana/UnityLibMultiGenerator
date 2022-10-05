@@ -1,4 +1,4 @@
-rootProject.name = "UnityTest"
+rootProject.name = "UnityLibMultiGenerator"
 include ':app'
 include ':multi_OS_library:unityLibrary'
 include ':unityLibrary'
