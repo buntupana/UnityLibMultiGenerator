@@ -72,4 +72,72 @@ class MainFragment : Fragment(), IUnityReceiver {
     override fun onSceneLoaded(sceneName: String?) {
         Toast.makeText(activity, sceneName, Toast.LENGTH_SHORT).show()
     }
+
+    override fun onVideoPlayerLoaded(mediaUrl: String?, length: Float) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVideoPlayerProgress(time: Float) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVideoPlayerFinished() {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVideoPlayerError(error: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onARPlayerLoaded(mediaUrl: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onARPlayerProgress(progress: Float) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onARPlayerError(error: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onARPlayerStatus(level: Int, status: String?, noTrackingReason: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onARPlayerPositioned(isInverted: Boolean) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onContentVersionMismatch(error: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVolumetricReady(mediaUrl: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVolumetricLoaded(mediaUrl: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onVolumetricError(error: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onScreenVideoSaved(path: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onScreenShotSaved(path: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onScreenVideoError(error: String?) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onScreenShotError(error: String?) {
+        TODO("Not yet implemented")
+    }
 }

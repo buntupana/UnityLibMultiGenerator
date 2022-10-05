@@ -1,4 +1,5 @@
 rootProject.name = "UnityTest"
 include ':app'
+include ':multi_OS_library:unityLibrary'
 include ':unityLibrary'
 project(':unityLibrary').projectDir=new File('..\\unityLibrary')
